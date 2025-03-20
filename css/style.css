@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+    --c1:#87C8E1;
+    --c2: #FADC0A;
+    --c3: #DC1419;
+}
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+/* Estilo del encabezado */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("css/bannercundinamarca.png");
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 400px;
+    margin-right: auto;
+    height: 50%;
+}
+
+nav.titulo h1 {
+    margin: 10px;
+    font-size: 24px;
+}
+
+/* Estilo del artículo principal */
+article {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* Sección de gastronomía */
+.gastromomia {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.container div {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #003366;
+}
+
+h4 {
+    color: #cc0000;
+    font-size: 20px;
+}
