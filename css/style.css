@@ -4,97 +4,245 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    background-color: rgba(128, 128, 128, 0.281);
+    color: #333;
 
     --c1:#87C8E1;
     --c2: #FADC0A;
     --c3: #DC1419;
 }
-
-
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-
+header{
+    background-color: var(--c1);
+    overflow: auto;
+    position: relative;
+    border-radius: 0px 0px 40px 0px ;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-/* Estilo del encabezado */
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("css/bannercundinamarca.png");
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header img {
+header img{
     width: 400px;
-    margin-right: auto;
-    height: 50%;
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    
 }
-
-nav.titulo h1 {
-    margin: 10px;
-    font-size: 24px;
+header h1{
+    font-size: 50px;
+    bottom: 25px;
+    right: 30px;
+    color: #f4f4f4;
+    background-color: transparent;
+    position: absolute;
 }
-
-/* Estilo del artículo principal */
+section{
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    background-color: transparent;
+    }
 article {
+    position: relative;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px 10px 10px 10px ;
     text-align: center;
-    margin: 20px auto;
-    width: 80%;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    overflow: auto;
 }
-
 article img {
-    width: 100%;
-    max-width: 600px;
-    border-radius: 10px;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    background-color: transparent;
+    
 }
-
-/* Sección de gastronomía */
-.gastromomia {
+article p{
+    background-color: transparent;
+    line-height: 1.5;
+}
+article p strong{
+    padding: 10px;
+    background-color: transparent;
+}
+.gastronomia{
+    background-image: url("/images/fondomesa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
     text-align: center;
-    margin: 20px;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+.gastronomia h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #e6b059;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+.plato {
+    background-color: transparent;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}
+.plato h4{
+    background-color: transparent;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    text-align: center;
+
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.726);
+    margin: 10px;
 }
 
-.container div {
-    background: #fff;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+.texto{
+    background-color: transparent;
+    padding: 5px;
+    text-align: right;
+    width: 60%;
+    position: absolute;
+    right: 40px;
+    margin: auto;
+    background-color: transparent;
+    overflow: auto;
+    
+}
+.texto p{
+    color: #f4f4f4;
+    text-align: justify;
+    font-size: large;
+}
+.imagen{
+    background-color: transparent;
+    text-align: left;
+
+}
+.imagen img {
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(70, 41, 5, 0.726);
+
 }
 
-.container img {
+.sector{
+    background-color: #FFEC36;
+    position: relative;
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px;
+    overflow: auto;
+}
+.sector img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    right: 10px;
+    border-radius: 0;
+    box-shadow: none;
 }
 
-h3 {
+.sector h3{
+    color: #1f1d1d;
+    text-align: center;
     font-size: 24px;
-    color: #003366;
+    margin-bottom: 20px;
+    background-color: transparent;
 }
 
-h4 {
-    color: #cc0000;
-    font-size: 20px;
+
+.sector p,strong{
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1f1d1d;
+    background-color: transparent;
+    width: 60%;
+    left: 0;
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 200PX;
+    border-style: solid;
+    background-image: url("/images/campuslands.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+
+.turismo {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo del título */
+.turismo h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #6D4C1A;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Lista de zonas turísticas */
+.turismo ul {
+    list-style: none;
+    padding: 0;
+}
+
+.turismo li {
+    background: #FFEC36;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.turismo strong {
+    color: #A0522D;
+}
+
+/* Estilo de la fuente */
+.fuente {
+    font-size: 12px;
+    font-style: italic;
+    color: #555;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Párrafo final */
+.turismo .final {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
 }
