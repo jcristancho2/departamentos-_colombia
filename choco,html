@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHOCÓ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/banner_choco.png" alt="">
+        <nav class="titulo">
+            <h1>DEPARTAMENTO DE CHOCÓ</h1>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <img src="images/choco.png" alt="">
+            <p><br><strong>CHOCÓ</strong><br>
+                <br> Ubicado en el noroeste de Colombia, Chocó es el único departamento del país con costas en el océano Pacífico y el mar Caribe. Su capital es Quibdó y se caracteriza por su biodiversidad, selvas tropicales y una cultura influenciada por las comunidades afrocolombianas e indígenas. <br>
+                <br> Con una extensión de 46,530 km² y una población aproximada de 550,000 habitantes, Chocó es una de las regiones más lluviosas del mundo, con ríos caudalosos y una gran riqueza natural.
+            </p>
+        </article>
+        <article class="gastronomia">
+            <h3>GASTRONOMÍA</h3>
+            <div class="plato">
+                <h4>Arroz con Coco</h4>
+                <div class="container">
+                    <div class="texto">
+                        <p>Plato típico preparado con arroz cocido en leche de coco, acompañado de pescado frito o mariscos.</p>
+                    </div>
+                    <div class="imagen">
+                        <img src="images/arroz_coco.png" alt="Arroz con Coco">
+                    </div>
+                </div>
+            </div>
+
+            <div class="plato">
+                <h4>Tamal Chocoano</h4>
+                <div class="container">
+                    <div class="texto">
+                        <p>Elaborado con masa de maíz y relleno de cerdo, pollo y vegetales, envuelto en hojas de plátano.</p>
+                    </div>
+                    <div class="imagen">
+                        <img src="images/tamal_chocoano.png" alt="Tamal Chocoano">
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="conteiner3">
+            <article class="sector">
+                <h3>SECTORES ECONÓMICOS</h3>
+                <img src="images/sector_choco.png" alt="">
+                <p><strong>Pesca:</strong> Actividad clave en la región, con especies como pargo, róbalo y camarón.</p>
+                <p><strong>Agricultura:</strong> Cultivo de plátano, cacao y coco en las zonas rurales.</p>
+                <p><strong>Minería:</strong> Extracción de oro y platino, aunque con desafíos ambientales.</p>
+                <p><strong>Turismo:</strong> Playas paradisíacas, avistamiento de ballenas y ecoturismo en el Pacífico colombiano.</p>
+            </article>
+            <article class="turismo">
+                <h3>ZONAS TURÍSTICAS</h3>
+                <p>Chocó ofrece paisajes espectaculares y cultura vibrante, destacando:</p>
+                <ul>
+                    <li><strong><a href="https://www.tripadvisor.com">Parque Nacional Natural Utría</a></strong></li>
+                    <li><strong><a href="https://www.tripadvisor.com">Bahía Solano</a></strong></li>
+                    <li><strong><a href="https://www.tripadvisor.com">Nuquí</a></strong></li>
+                    <li><strong><a href="https://www.tripadvisor.com">Río Atrato</a></strong></li>
+                </ul>
+                <p class="final">Chocó es un destino ideal para el ecoturismo y la conexión con la naturaleza.</p>
+            </article>
+        </div>
+    </section>
+</body>
+</html>

@@ -139,20 +139,28 @@ article p strong{
 
 }
 
-.sector{
-    background-color: #FFEC36;
+.conteiner3{
     position: relative;
+    background-color: ghostwhite;
     width: 100%;
-    margin: auto;
-    justify-content: space-between;
+    height: 700px;
+    margin: 0;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 5px; 
+}
+.sector{
+
+    background-color: #FFEC36;
+    position: absolute;
+    left: 5%;
+    width: 40%;
     padding: 20px;
-    overflow: auto;
 }
 .sector img{
     width: 300px;
     height: 200px;
-    position: absolute;
-    right: 10px;
     border-radius: 0;
     box-shadow: none;
 }
@@ -164,23 +172,84 @@ article p strong{
     margin-bottom: 20px;
     background-color: transparent;
 }
-
-
 .sector p,strong{
-    text-align: left;
+    text-align: justify;
     font-size: 16px;
     line-height: 1.5;
-    color: #1f1d1d;
+    color: #333;
     background-color: transparent;
-    width: 60%;
-    left: 0;
+
+
 }
 
 
 
 
 
-footer {
+
+.turismo {
+    width: 40%;
+    position: absolute;
+    right: 5%;
+    background-color: #423f3f93;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.turismo p{
+    color: #f4f4f4;
+}
+
+.turismo h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #6D4C1A;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+.turismo ul {
+    list-style: none;
+    padding: 0;
+    background: transparent;
+    color: #f4f4f4;
+}
+
+.turismo li {
+    background: transparent;
+    color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    height: auto;
+    overflow: visible;
+}
+
+.turismo strong {
+    color: #f4f4f4;
+    font-size: 20px;
+    background: transparent;
+    height: 20px;
+}
+
+.turismo a{
+    color: #f4f4f4;
+    text-decoration: none;
+    background: transparent;
+}
+
+.turismo .final {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #f4f4f4;
+}
+
+
+/* footer {
     width: 100%;
     height: 200PX;
     border-style: solid;
@@ -189,60 +258,4 @@ footer {
     background-size: cover;
 
 
-}
-
-
-
-.turismo {
-    width: 90%;
-    max-width: 800px;
-    margin: 20px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Estilo del título */
-.turismo h3 {
-    text-align: center;
-    font-size: 24px;
-    color: #6D4C1A;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-/* Lista de zonas turísticas */
-.turismo ul {
-    list-style: none;
-    padding: 0;
-}
-
-.turismo li {
-    background: #FFEC36;
-    padding: 10px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.turismo strong {
-    color: #A0522D;
-}
-
-/* Estilo de la fuente */
-.fuente {
-    font-size: 12px;
-    font-style: italic;
-    color: #555;
-    display: block;
-    margin-top: 5px;
-}
-
-/* Párrafo final */
-.turismo .final {
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 20px;
-}
+} */
