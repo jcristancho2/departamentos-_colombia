@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: rgba(128, 128, 128, 0.281);
+    color: #333;
+
+    --c1:#87C8E1;
+    --c2: #FADC0A;
+    --c3: #DC1419;
+}
+
+body{
+    font-family: "Raleway", serif;
+}
+
+
+header{
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 0px 0px 40px 0px ;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(180deg, #664444c2 0%, #1b1b1d10 100%), url(../images/iamgenfondo.jpg);
+}
+
+header h1{
+    font-size: 40px;
+    bottom: 25px;
+    right: 30px;
+    color: #f4f4f4;
+    background-color: transparent;
+    position: absolute;
+}
+section{
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    background-color: transparent;
+    }
+article {
+    position: relative;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px 10px 10px 10px ;
+    text-align: center;
+    background-color: whitesmoke;
+    overflow: auto;
+}
+article img {
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    background-color: transparent;
+    
+}
+article p{
+    background-color: transparent;
+    line-height: 1.5;
+    text-shadow: -1px -1px 1px #b8a3a3,
+        0px 4px 1px rgba(202, 199, 199, 0.5),
+        4px 4px 5px rgba(63, 63, 63, 0.801),
+        0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+article p strong{
+    padding: 10px;
+    background-color: transparent;
+}
+.gastronomia{
+    background-image: url("/images/fondomesa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    text-align: center;
+    overflow: auto;
+}
+.gastronomia h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #e6b059;
+    margin-bottom: 20px;
+    background-color: transparent;
+    text-shadow: -1px -1px 1px #423f3fcc,
+            0px 4px 1px rgba(133, 131, 131, 0.5),
+            4px 4px 5px rgba(39, 35, 35, 0.801),
+            0px 0px 7px rgba(0, 0, 0, 0.664);
+}
+.plato {
+    background-color: transparent;
+    margin-bottom: 20px;
+    padding: 15px;
+
+
+}
+.plato h4{
+    background-color: transparent;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: -1px -1px 1px #423f3fcc,
+            0px 4px 1px rgba(133, 131, 131, 0.5),
+            4px 4px 5px rgba(39, 35, 35, 0.801),
+            0px 0px 7px rgba(0, 0, 0, 0.664);
+    
+
+}
+
+.container {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.726);
+    margin: 10px;
+}
+
+.texto{
+    background-color: transparent;
+    padding: 5px;
+    text-align: right;
+    width: 60%;
+    right: 40px;
+    margin: auto;
+    background-color: transparent;
+    overflow: auto;
+    
+ }
+
+  .texto p{
+    color: #dad7d7;
+    text-align: justify;
+    font-size: large;
+    text-shadow: -1px -1px 1px #423f3fcc,
+            0px 4px 1px rgba(133, 131, 131, 0.5),
+            4px 4px 5px rgba(39, 35, 35, 0.801),
+            0px 0px 7px rgba(0, 0, 0, 0.664);
+}
+
+.imagen{
+    background-color: transparent;
+    text-align: center;
+
+}
+.imagen img {
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(70, 41, 5, 0.726);
+
+}
+
+.conteiner3{
+    position: relative;
+    background-color: whitesmoke;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.sector {
+    background: #fbda01dc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+}
+
+.sector img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.sector h3{
+    color: #1f1d1d;
+    text-shadow: -1px -1px 1px #c7c5c5cc,
+        0px 4px 1px rgba(126, 110, 110, 0.5),
+        4px 4px 5px rgba(17, 17, 17, 0.801);
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+.sector p,strong{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: transparent;
+
+
+}
+
+.turismo {
+    background: #2d7185f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.turismo p{
+    color: #f4f4f4;
+    text-shadow: none;
+    
+}
+
+.turismo h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #6D4C1A;
+    text-shadow: -1px -1px 1px #c7c5c5cc,
+            0px 4px 1px rgba(163, 163, 163, 0.5),
+            4px 4px 5px rgba(97, 97, 97, 0.548);
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+.turismo ul {
+    list-style: none;
+    padding: 0;
+    background: transparent;
+    color: #f4f4f4;
+
+}
+
+.turismo li {
+    background: transparent;
+    color: #f4f4f4;
+    padding: 8px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.turismo strong {
+    color: #f4f4f4;
+    font-size: 20px;
+    background: transparent;
+}
+
+.turismo a{
+    text-decoration: none;
+    color: #f4f4f4;
+    transition: color 0.3s;
+    display: inline-block;
+    background: transparent;
+}
+
+.final {
+    
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #f4f4f4;
+}
+
+
+footer {
+    width: 100%;
+    height: auto;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #fd0004d5;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: #333;
+    background-color: transparent;
+    display: inline-block;
+
+
+}
+
+a:hover {
+    color: #00ffea;
+}
+
